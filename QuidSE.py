@@ -1,4 +1,8 @@
 import requests
+from pyfiglet import Figlet
+
+f = Figlet(font="slant", width=300)
+print(f.renderText("QuidSE"))
 print("*QuidSE*初始化成功\n欢迎使用查询工具，工具版本：v1")
 
 while True:
@@ -17,4 +21,5 @@ while True:
     if a==1:
         print('退出成功')
         break
-#by Makads
+
+ #by Makads
